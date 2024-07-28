@@ -33,7 +33,7 @@ function verificarIntento() {
 }
 
 function limpiarCaja() {
-    //document.querySelector("#valorUsuario").value = "";
+    document.querySelector("#valorUsuario").value = "";
 }
 function generarNumeroSecreto() {
     let numeroGenerado = Math.floor(Math.random()*numeroMaximo)+1;
