@@ -1,7 +1,7 @@
 let numeroSecreto = 0;
 let numeroDeIntentos = 0;
 let listaNumerosSorteados = [];
-let numeroMaximo = 10;
+let numeroMaximo = 100;
 let numeroMaxIntentos = 5;
 
 function asignarTextoElemento(elemento, texto) {
@@ -33,7 +33,7 @@ function verificarIntento() {
 }
 
 function limpiarCaja() {
-    document.querySelector("#valorUsuario").value = "";
+    //document.querySelector("#valorUsuario").value = "";
 }
 function generarNumeroSecreto() {
     let numeroGenerado = Math.floor(Math.random()*numeroMaximo)+1;
